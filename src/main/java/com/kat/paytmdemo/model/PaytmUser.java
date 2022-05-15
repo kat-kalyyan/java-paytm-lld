@@ -12,10 +12,14 @@ import java.util.List;
 @Setter
 @Entity
 public class PaytmUser extends BaseModel {
+    @OneToOne
+    private Identity identity;
     private String firstName;
     private String lastName;
     @OneToOne
     private Wallet wallet;
     @OneToMany
     private List<BankAccount> bankAccounts;
+    @OneToMany
+    private List<Card> cards;
 }
