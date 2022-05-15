@@ -1,4 +1,4 @@
-package com.example.paytmdemo;
+package com.kat.paytmdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
