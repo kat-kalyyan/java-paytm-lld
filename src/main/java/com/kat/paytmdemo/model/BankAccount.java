@@ -11,4 +11,5 @@ import javax.persistence.Entity;
 public class BankAccount extends PaymentAccount {
     private long accountNumber;
     private long ifsc;
+    private String upi;
 }
